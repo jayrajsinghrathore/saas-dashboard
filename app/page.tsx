@@ -8,7 +8,7 @@ export default function Dashboard() {
   return (
     <SidebarProvider>
       <AppSidebar />
-      <SidebarInset>
+      <SidebarInset>  
         <DashboardContent />
       </SidebarInset>
     </SidebarProvider>
