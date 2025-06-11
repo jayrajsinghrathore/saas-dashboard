@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description: 'Created with v0',
   generator: 'v0.dev',
 }
-
+  
 export default function RootLayout({
   children,
 }: Readonly<{
