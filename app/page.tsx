@@ -1,16 +1,12 @@
-"use client"
+import { redirect } from "next/navigation"
+import { getUser } from "@/lib/auth"
 
-import { AppSidebar } from "@/components/app-sidebar"
-import { DashboardContent } from "@/components/dashboard-content"
-import { SidebarProvider, SidebarInset } from "@/components/ui/sidebar"
+export default async function HomePage() {
+  const user = await getUser()
 
-export default function Dashboard() {
-  return (
-    <SidebarProvider>
-      <AppSidebar />
-      <SidebarInset>  
-        <DashboardContent />
-      </SidebarInset>
-    </SidebarProvider>
-  )
+  if (user) {
+    redirect("/dashboard")
+  } else {
+    redirect("/login")
+  }
 }
