@@ -7,7 +7,7 @@ import {
   SidebarContent,
   SidebarFooter,
   SidebarGroup,
-  SidebarGroupContent,
+  SidebarGroupContent, 
   SidebarGroupLabel,
   SidebarHeader,
   SidebarMenu,
