@@ -4,7 +4,7 @@ import { BarChart3, Building2, CreditCard, Home, Settings, Users, FileText, Help
 
 import { 
   Sidebar,
-  SidebarContent,
+  SidebarContent, 
   SidebarFooter,
   SidebarGroup,
   SidebarGroupContent, 
