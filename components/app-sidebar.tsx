@@ -2,7 +2,7 @@
 
 import { BarChart3, Building2, CreditCard, Home, Settings, Users, FileText, HelpCircle, Zap } from "lucide-react"
 
-import {
+import { 
   Sidebar,
   SidebarContent,
   SidebarFooter,
